@@ -1,5 +1,5 @@
 import 'babel-polyfill';
-import render from 'react-dom';
+import {render} from 'react-dom';
 import React,{PropTypes} from 'react';
 import route from './route';
 import {Router,browserHistory} from 'react-router'; //REMEMBER THAT browserHistory IS USED FOR MODERN BROWSERS THAT SUPPORT HTML5 PUSH STATE(),FOR MORE http://html5.gingerhost.com/
