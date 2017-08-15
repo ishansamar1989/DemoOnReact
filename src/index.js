@@ -7,7 +7,7 @@ import {Router,browserHistory} from 'react-router'; //REMEMBER THAT browserHisto
 
 
 render(
-<Router history={browserHistory} route={route}/>,
+<Router history={browserHistory} routes={route}/>,
 document.getElementById('app')
 );
 
